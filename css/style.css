@@ -276,9 +276,6 @@ nav {
   color: #ce2323;
 }
 .post-preview > a > .post-title {
-  float: left;
-  width: 30%;
-  height: 100%;
   font-size: 2em;
 }
 .post-preview > a > .post-title.archive {

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<!-- Head tag -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+    
+        <meta name="description" content="=底线标题-底线标题标题1标题2标题3标题4标题5
+符号&amp;gt;This is blockgoute 
+
+Markdown 使用星号和底线来标记需要强调的区段。
+无序列表使用星号、加号和减号来做为列表的项目标记，这些符号是都可以使用的，使用星号：
+
+Candy.
+Gum.
+Booze.加号：
+
+
+C">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="John Doe">
+    
+
+    <!-- Title -->
+    
+    <title>markdown 语法 | Hexo</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Content -->
+    <section class="article-container">
+<!-- Back Home -->
+<a class="nav-back" href="/">
+    <i class="fa fa-puzzle-piece"></i>
+</a>
+
+<!-- Page Header -->
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>markdown 语法</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <!-- Post Main Content -->
+            <div class="post-content col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h1 id="底线标题"><a href="#底线标题" class="headerlink" title="=底线标题"></a>=底线标题</h1><h2 id="底线标题-1"><a href="#底线标题-1" class="headerlink" title="-底线标题"></a>-底线标题</h2><h1 id="标题1"><a href="#标题1" class="headerlink" title="标题1"></a>标题1</h1><h3 id="标题2"><a href="#标题2" class="headerlink" title="标题2"></a>标题2</h3><h4 id="标题3"><a href="#标题3" class="headerlink" title="标题3"></a>标题3</h4><h5 id="标题4"><a href="#标题4" class="headerlink" title="标题4"></a>标题4</h5><h6 id="标题5"><a href="#标题5" class="headerlink" title="标题5"></a>标题5</h6><blockquote>
+<p>符号&gt;This is blockgoute </p>
+</blockquote>
+<p>Markdown 使用星号和底线来标记需要<em>强调</em>的区段。</p>
+<p>无序列表使用星号、加号和减号来做为列表的项目标记，这些符号是都可以使用的，使用星号：</p>
+<ul>
+<li>Candy.</li>
+<li>Gum.</li>
+<li>Booze.<br>加号：</li>
+</ul>
+<ul>
+<li>Candy.</li>
+<li>Gum.</li>
+<li>Booze.<br>和减号</li>
+</ul>
+<ul>
+<li>Candy.</li>
+<li>Gum.</li>
+<li>Booze.</li>
+</ul>
+<p>有序的列表则是使用一般的数字接着一个英文句点作为项目标记：</p>
+<ol>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ol>
+<h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><p>Markdown 支援两种形式的链接语法： 行内 和 参考 两种形式，两种都是使用角括号来把文字转成连结。</p>
+<p>行内形式是直接在后面用括号直接接上链接：</p>
+<p><code>This is an [example link](http://example.com/).</code><br>输出 HTML 为：</p>
+<p>This is an <a href="http://example.com/" target="_blank" rel="external"><br>example link</a>.</p><br>你也可以选择性的加上 title 属性：<br><br><code>This is an [example link](http://example.com/ &quot;With a Title&quot;).</code><br>输出 HTML 为：<br><br><p>This is an <a href="http://example.com/" title="With a Title" target="_blank" rel="external"><br>example link</a>.</p><br>参考形式的链接让你可以为链接定一个名称，之后你可以在文件的其他地方定义该链接的内容：<br><br>I get 10 times more traffic from [Google][1] than from<br>[Yahoo][2] or [MSN][3].<br><br>[1]: <a href="http://google.com/" target="_blank" rel="external">http://google.com/</a> “Google”<br>[2]: <a href="http://search.yahoo.com/" target="_blank" rel="external">http://search.yahoo.com/</a> “Yahoo Search”<br>[3]: <a href="http://search.msn.com/" target="_blank" rel="external">http://search.msn.com/</a> “MSN Search”<br>输出 HTML 为：<br><br><code>&lt;p&gt;I get 10 times more traffic from &lt;a href=&quot;http://google.com/&quot;
+title=&quot;Google&quot;&gt;Google&lt;/a&gt; than from &lt;a href=&quot;http://search.yahoo.com/&quot;
+title=&quot;Yahoo Search&quot;&gt;Yahoo&lt;/a&gt; or &lt;a href=&quot;http://search.msn.com/&quot;
+title=&quot;MSN Search&quot;&gt;MSN&lt;/a&gt;.&lt;/p&gt;</code><br>title 属性是选择性的，链接名称可以用字母、数字和空格，但是不分大小写：<br><br>I start my morning with a cup of coffee and<br>[The New York Times][NY Times].<br><br>[ny times]: <a href="http://www.nytimes.com/" target="_blank" rel="external">http://www.nytimes.com/</a><br>输出 HTML 为：<br><br><p>I start my morning with a cup of coffee and<br><a href="http://www.nytimes.com/" target="_blank" rel="external">The New York Times</a>.</p>
+
+
+<p>图片</p>
+<p>图片的语法和链接很像。</p>
+<p>行内形式（title 是选择性的）：</p>
+<p><img src="/path/to/img.jpg" alt="alt text" title="Title"><br>参考形式：</p>
+<p><img src="/path/to/img.jpg" alt="alt text" title="Title"></p>
+<p>上面两种方法都会输出 HTML 为：</p>
+<p><img src="/path/to/img.jpg" alt="alt text" title="Title"><br>代码</p>
+<p>在一般的段落文字中，你可以使用反引号 ` 来标记代码区段，区段内的 &amp;、&lt; 和 &gt; 都会被自动的转换成 HTML 实体，这项特性让你可以很容易的在代码区段内插入 HTML 码：</p>
+<p>I strongly recommend against using any <code>&lt;blink&gt;</code> tags.</p>
+<p>I wish SmartyPants used named entities like <code>&amp;mdash;</code><br>instead of decimal-encoded entites like <code>&amp;#8212;</code>.<br>输出 HTML 为：</p>
+<p></p><p>I strongly recommend against using any<br><code>&lt;blink&gt;</code> tags.</p><p></p>
+<p></p><p>I wish SmartyPants used named entities like<br><code>&amp;mdash;</code> instead of decimal-encoded<br>entites like <code>&amp;#8212;</code>.</p><br>如果要建立一个已经格式化好的代码区块，只要每行都缩进 4 个空格或是一个 tab 就可以了，而 &amp;、&lt; 和 &gt; 也一样会自动转成 HTML 实体。<p></p>
+<p>Markdown 语法:</p>
+<p>If you want your page to validate under XHTML 1.0 Strict,<br>you’ve got to put paragraph tags in your blockquotes:</p>
+<p><blockquote></blockquote></p>
+<p></p><p>For example.</p><br><br>输出 HTML 为：<p></p>
+<p></p><p>If you want your page to validate under XHTML 1.0 Strict,<br>you’ve got to put paragraph tags in your blockquotes:</p><p></p>
+<pre><code>&lt;blockquote&gt;
+&lt;p&gt;For example.&lt;/p&gt;
+&lt;/blockquote&gt;
+</code></pre>
+ 
+                <!-- Meta -->
+                <div class="post-meta">
+                    <hr>
+                    <br>
+                    <div class="post-tags">
+                        
+                            
+
+<a href="/tags/markdown/">#markdown</a>
+
+
+                        
+                    </div>
+                    <div class="post-date">
+                        2017 年 04 月 19 日
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comments -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <!-- Disqus Comments -->
+
+
+            </div>
+        </div>
+    </div>
+</article>
+</section>
+
+    <!-- Scripts -->
+    <!-- jQuery -->
+<script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+	console.log('Hexo-theme-hollow designed by zchen9 🙋 © 2015-' + (new Date()).getFullYear());
+</script>
+
+    <!-- Google Analytics -->
+    
+
+</body>
+
+</html>
