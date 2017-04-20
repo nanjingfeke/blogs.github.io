@@ -114,14 +114,13 @@ title=&quot;Yahoo Search&quot;&gt;Yahoo&lt;/a&gt; or &lt;a href=&quot;http://sea
 title=&quot;MSN Search&quot;&gt;MSN&lt;/a&gt;.&lt;/p&gt;</code><br>title 属性是选择性的，链接名称可以用字母、数字和空格，但是不分大小写：<br><br>I start my morning with a cup of coffee and<br>[The New York Times][NY Times].<br><br>[ny times]: <a href="http://www.nytimes.com/" target="_blank" rel="external">http://www.nytimes.com/</a><br>输出 HTML 为：<br><br><p>I start my morning with a cup of coffee and<br><a href="http://www.nytimes.com/" target="_blank" rel="external">The New York Times</a>.</p>
 
 
-<p>图片</p>
-<p>图片的语法和链接很像。</p>
+<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p>图片的语法和链接很像。</p>
 <p>行内形式（title 是选择性的）：</p>
-<p><img src="/path/to/img.jpg" alt="alt text" title="Title"><br>参考形式：</p>
-<p><img src="/path/to/img.jpg" alt="alt text" title="Title"></p>
-<p>上面两种方法都会输出 HTML 为：</p>
-<p><img src="/path/to/img.jpg" alt="alt text" title="Title"><br>代码</p>
-<p>在一般的段落文字中，你可以使用反引号 ` 来标记代码区段，区段内的 &amp;、&lt; 和 &gt; 都会被自动的转换成 HTML 实体，这项特性让你可以很容易的在代码区段内插入 HTML 码：</p>
+<p><code>![alt text](/path/to/img.jpg &quot;Title&quot;)</code><br>参考形式：</p>
+<p><code>![alt text][id]</code></p>
+<p><code>[id]: /path/to/img.jpg &quot;Title&quot;</code><br>上面两种方法都会输出 HTML 为：</p>
+<p><code>&lt;img src=&quot;/path/to/img.jpg&quot; alt=&quot;alt text&quot; title=&quot;Title&quot; /&gt;</code></p>
+<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><p>在一般的段落文字中，你可以使用反引号 ` 来标记代码区段，区段内的 &amp;、&lt; 和 &gt; 都会被自动的转换成 HTML 实体，这项特性让你可以很容易的在代码区段内插入 HTML 码：</p>
 <p>I strongly recommend against using any <code>&lt;blink&gt;</code> tags.</p>
 <p>I wish SmartyPants used named entities like <code>&amp;mdash;</code><br>instead of decimal-encoded entites like <code>&amp;#8212;</code>.<br>输出 HTML 为：</p>
 <p></p><p>I strongly recommend against using any<br><code>&lt;blink&gt;</code> tags.</p><p></p>
